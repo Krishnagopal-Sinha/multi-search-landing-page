@@ -17,7 +17,7 @@ const CoverImage = ({ title, src, slug }: Props) => {
         "hover:shadow-lg transition-shadow duration-200": slug,
       })}
       width={1300}
-      height={630}
+      height={730}
     />
   );
   return (
