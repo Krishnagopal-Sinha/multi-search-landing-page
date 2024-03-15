@@ -1,44 +1,43 @@
-# A statically generated blog example using Next.js, Markdown, and TypeScript
+# Landing page for Multi Search NewTab
 
-This is the existing [blog-starter](https://github.com/vercel/next.js/tree/canary/examples/blog-starter) plus TypeScript.
+![Screenshot 3](public/assets/blog/intro/cover.png)
 
-This example showcases Next.js's [Static Generation](https://nextjs.org/docs/app/building-your-application/routing/pages-and-layouts) feature using Markdown files as the data source.
+Are you tired of toggling between different search engines to find the precise information you need? Multi Search NewTab changes the way you search by amalgamating the power of multiple search engines into one convenient new tab. It's simple yet efficient!euismod.
 
-The blog posts are stored in `/_posts` as Markdown files with front matter support. Adding a new Markdown file in there will create a new blog post.
+## 👾 Instructions for use:
 
-To create the blog posts we use [`remark`](https://github.com/remarkjs/remark) and [`remark-html`](https://github.com/remarkjs/remark-html) to convert the Markdown files into an HTML string, and then send it down as a prop to the page. The metadata of every post is handled by [`gray-matter`](https://github.com/jonschlinkert/gray-matter) and also sent in props to the page.
+-> Simply enter you search query on the top most search bar after opening a new tab.
 
-## Demo
+-> Select your preferred search engine via drop-down menu available on top left and the top right side for left and right windows respectively.
 
-[https://next-blog-starter.vercel.app/](https://next-blog-starter.vercel.app/)
+-> Write " ms " in url search/address bar of your browser and press on your keyboard, the extension will then take over any further words you press as search query! (hit enter in the end to search) | ms stands for Multi Search :D
 
-## Deploy your own
+-> To navigate backwards, select one of the two split windows (left or right) and press your browser's back button.
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/blog-starter)
+-> You can also think of left and right split windows as individual tabs and use them as such.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/next.js/tree/canary/examples/blog-starter&project-name=blog-starter&repository-name=blog-starter)
+## Stats
 
-### Related examples
+🚀 Already over 130 users and counting 🥳
 
-- [WordPress](/examples/cms-wordpress)
-- [DatoCMS](/examples/cms-datocms)
-- [Sanity](/examples/cms-sanity)
-- [TakeShape](/examples/cms-takeshape)
-- [Prismic](/examples/cms-prismic)
-- [Contentful](/examples/cms-contentful)
-- [Strapi](/examples/cms-strapi)
-- [Agility CMS](/examples/cms-agilitycms)
-- [Cosmic](/examples/cms-cosmic)
-- [ButterCMS](/examples/cms-buttercms)
-- [Storyblok](/examples/cms-storyblok)
-- [GraphCMS](/examples/cms-graphcms)
-- [Kontent](/examples/cms-kontent)
-- [Umbraco Heartcore](/examples/cms-umbraco-heartcore)
-- [Builder.io](/examples/cms-builder-io)
-- [TinaCMS](/examples/cms-tina/)
-- [Enterspeed](/examples/cms-enterspeed)
+## Outlook
 
-## How to use
+🔍 The Problem: I found myself constantly juggling between multiple search engines, tab after tab, in my quest for information. It was a real hassle, especially during those deep dive knowledge hunts at work.
+
+🌟 The Solution: A clean new tab page that consolidates search engines and unlocks split tabs in a single tab, boosting productivity and reducing search times. Also, no more frantic tab-switching!
+
+I am really excited about how much it has helped me and I believe it may do the same for you. Give it a whirl and let the knowledge hunt be as seamless as it should be!
+
+## Screenshots
+
+![Screenshot 1](public/assets/ss1.png)
+
+![Screenshot 2](public/assets/ss2.png)
+
+![Screenshot 3](public/assets/ss3.png)
+
+
+## How to use this repo
 
 Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
 
@@ -60,4 +59,4 @@ Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&ut
 
 # Notes
 
-`blog-starter` uses [Tailwind CSS](https://tailwindcss.com) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3).
+`blog-starter` uses [Tailwind CSS](https://tailwindcss.com) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3) along with markdown.
