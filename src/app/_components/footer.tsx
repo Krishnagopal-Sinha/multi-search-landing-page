@@ -21,6 +21,12 @@ export function Footer() {
             >
               Edge Add-ons Store
             </a>
+            <a
+              href="https://addons.mozilla.org/en-US/firefox/addon/multi-search-newtab-multi-tab/"
+              className="mx-3 bg-black hover:bg-white hover:text-black border border-black text-white font-bold py-3 px-12 lg:px-6 duration-200 transition-colors mb-6 lg:mb-0"
+            >
+              Firefox Add-ons Store
+            </a>
           </div>
         </div>
       </Container>
