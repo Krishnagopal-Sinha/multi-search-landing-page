@@ -7,7 +7,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: `Multi Search NewTab`,
+  title: `🔍 Multi Search NewTab`,
   description: `The Ultimate Search Accelerator for Your Browser!`,
 };
 
